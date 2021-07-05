@@ -1,0 +1,190 @@
+
+html{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+h1{
+    color: #1ECD97;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header{
+    padding-bottom: 50px;
+    
+    height: 20px;
+    margin-bottom: 50px;
+}
+header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+nav{
+    float: right; 
+    padding-top: 20px;
+
+}
+
+nav>a{
+    
+    text-decoration: none;
+    margin-right: 20px;  
+    color: blue;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #1ECD97;
+}
+
+
+.Home {
+ 
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+.Home p{
+    color: rgb(33, 34, 31);
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.Home .btn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+	color: #1ECD97;
+	border: 2px solid #1ECD97;
+	border-radius: 40px;
+}
+
+.section-video{
+    margin-top: 30px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.section-video h1{
+    color: chocolate;
+}
+
+@keyframes anime {
+    0%{transform: translateX(0px);}
+    100%{transform: translateX(20px);}
+    
+}
+
+#About{
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+form{
+    padding-top: 30px;
+}
+#About .row{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#About .row .col{
+    display: inline-block;
+    margin-right: 100px;
+    
+}
+.col label{
+    font-style: italic;
+    color: white;
+    margin-bottom:10px ;
+    display: block;
+}
+.col input{
+    background-color: transparent;
+  
+}
+
+.col input::placeholder{
+    color: black;
+    
+}
+
+#Resume{
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #f3eded;
+}
+
+#Contact{
+    margin-top: 100px;
+    background-color: rgb(211, 204, 204);
+    position: relative;
+	height: 200px;
+}
+#Contact h3{
+    margin-left: 40px;
+    font-size: medium;
+    font-weight: lighter;
+    
+    
+}
+#Contact ul{
+    width: 100%;
+	text-align: left;
+
+}
+#Contact li {
+    display: block;
+	list-style-type: none;
+	line-height: 20px;
+	margin-right: 25px;
+    margin-bottom: 10px;
+   
+}
+
+#Contact li a{
+
+    text-decoration: none;
+}
+.fab .fa-facebook{
+    color: blue;
+}
+
+#Contact .Copyright {
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+  }

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="./src/images/potfolio.jpg" alt="">
+      <nav>
+        <a href="portfolio.html">Home</a>
+        <a href="#About">About</a>
+        <a href="#Resume">Resume</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Home">
+        <!--<a name="Home"></a>-->
+        <h1>Hello</h1>
+
+          <p>My Name is Nawel Tajouri</p>
+          <p>Full Stack Js student at GoMyCode</p>
+          <button class="btn">About me</button>
+
+      </section>
+
+      <section class="section-video" style="margin-left: 30%">
+        <h1 style="margin-left: 200px">GoMyCode</h1>
+        
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/olJOZp57FWM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        
+      </section>
+
+      <section id="About">
+        <!--<a name="About"></a>-->
+        <h1>Informations About Me</h1>
+        <div>
+          <form>
+            <div class="row">
+              <div class="col">
+                <label>First Name</label>
+                <input type="text" placeholder="Nawel" id="">
+              </div>
+              <div class="col">
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Tajouri" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label for="">Email</label>
+                <input type="email" placeholder="Lewan.nawel95@gmail.com" />
+              </div>
+              <div class="col">
+                <label for="">Level</label>
+                <input type="text" placeholder="Engineer" />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <label for="">Adress</label>
+                <input type="text" placeholder="Bizert Street Gafsa" />
+              </div>
+              <div class="col">
+                <label for="">Telephone</label>
+                <input type="number" placeholder="50958517" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section id="Resume">
+        <!--<a name="Resume"></a>-->
+        <h1>My resume</h1>
+        <table class="styled-table">
+          <thead>
+            <tr>
+              <th>Degree</th>
+              <th>Project</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          
+          <tbody>
+            <tr>
+              <td>Master</td>
+              <td>Computer Vision</td>
+              <td>2020</td>
+            </tr>
+  
+            <tr>
+              <td>Engineering</td>
+              <td>VHDL Implementation</td>
+              <td>2016</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <div id="Contact">
+        <!--<a name="Contact"></a>-->
+        <h3>For Any Help Please Contact me</h3>
+        <div>
+          <ul>
+            <li><a href="#"><img src="./gmail.svg" style="width: 20px; height: 20px; margin-right: 10px;">
+              Gmail: Lewan.nawel95@gmail.com</a></li>
+            <li><a href="#"><img src="./whatsapp.svg" style="width: 20px; height: 20px; margin-right: 10px;">WhatsApp: +216 50 958 517</li>
+            <li><a href="#"><img src="./facebook.svg" style="width: 20px; height: 20px; margin-right: 10px;">Facebook</a></li>
+          </ul>
+          <div>
+            <p class="Copyright">
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Tous les droits sont réservés | Ce template est creer <i class="fab fa-wolf-pack-battalion"></i> par Tajouri Nawel
+              </p>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
